@@ -3,7 +3,7 @@ import ProfileImage from '../images/profile-image.jpg';
 
 export const Header = () => {
     return (
-        <header className="main-cover" style={{ backgroundimage: `url(${CoverImage})` }}>
+        <header className="main-cover" style={{ backgroundImage: `url(${CoverImage})` }}>
             {/* ovrlayはカバー画像の上に透過して表示される背景要素 */}
             <div className="overlay"></div>
             <div className="container">
