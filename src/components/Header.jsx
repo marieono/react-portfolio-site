@@ -1,3 +1,4 @@
+import { FaTwitter, FaGithub } from 'react-icons/fa';
 import CoverImage from '../images/cover-image.jpeg';
 import ProfileImage from '../images/profile-image.jpg';
 
@@ -16,9 +17,15 @@ export const Header = () => {
                         <ul className="social-icons">
                             <li className="icon-link">
                                 {/* TODO */}
+                                <a href="https://twitter.com/">
+                                    <FaTwitter color="white" size="2rem" />
+                                </a>
                             </li>
                             <li className="icon-link">
                                 {/* TODO */}
+                                <a href="https://github.com">
+                                    <FaGithub color="white" size="2rem" />
+                                </a>
                             </li>
                         </ul>
                     </div>
