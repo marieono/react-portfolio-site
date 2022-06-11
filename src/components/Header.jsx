@@ -17,13 +17,13 @@ export const Header = () => {
                         <ul className="social-icons">
                             <li className="icon-link">
                                 {/* TODO */}
-                                <a href="https://twitter.com/">
+                                <a href="https://twitter.com/erimano23">
                                     <FaTwitter color="white" size="2rem" />
                                 </a>
                             </li>
                             <li className="icon-link">
                                 {/* TODO */}
-                                <a href="https://github.com">
+                                <a href="https://github.com/marieono">
                                     <FaGithub color="white" size="2rem" />
                                 </a>
                             </li>
