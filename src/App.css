@@ -74,7 +74,7 @@ h3 {
 }
 
 .container {
-  width: 1170px;
+  max-width: 1000px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
@@ -152,10 +152,9 @@ h3 {
   color: #30BFBA;
 }
 
-@media only screen and (max-width: 600px) {
-  .description img {
-    float: none;
-    display: block;
+@media(max-width: 767px) {
+  .container {
+    max-width: 1000px auto;
     margin: 0 auto;
   }
 }
