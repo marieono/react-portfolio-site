@@ -154,7 +154,7 @@ h3 {
 
 @media(max-width: 767px) {
   .container {
-    max-width: 1000px auto;
+    max-width: 100% auto;
     margin: 0 auto;
   }
 
