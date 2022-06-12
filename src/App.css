@@ -152,6 +152,10 @@ h3 {
   color: #30BFBA;
 }
 
+.skill-item {
+  margin: 0.48px;
+}
+
 @media(max-width: 767px) {
   .container {
     max-width: 100% auto;
