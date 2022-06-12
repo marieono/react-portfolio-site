@@ -12,7 +12,7 @@ export const Header = () => {
                     <div className="display-table-contents">
                         {/* カバー画像 */}
                         <div className="profile-thumb" style={{ backgroundImage: `url(${ProfileImage})` }}></div>
-                        <h1 className="title-text">まり</h1>
+                        <h1 className="title-text">えりまの</h1>
                         <h3 className="title-text">学生</h3>
                         <ul className="social-icons">
                             <li className="icon-link">
