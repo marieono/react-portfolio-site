@@ -24,10 +24,10 @@ export const Skills = () => {
     const generateLanguageConuntObj = (allLanguageList) => {
         const notNullLanguageList = allLanguageList.filter(language => language != null);
         const uniqueLanguageList = [...new Set(notNullLanguageList)];
+        // const sortedLanguageList = () => (
+        // state.languageList.sort((firstLang, nextLang) => nextLang.count - firstLang.count)
+        // )
 
-        const sortedLanguageList = () => (
-            state.languageList.sort((firstLang, nextLang) => nextLang.count - firstLang.count)
-        )
         return uniqueLanguageList.map(item => {
             return {
                 language: item,
@@ -55,7 +55,8 @@ export const Skills = () => {
                     }
                     {
                         state.requestState === requestStates.success && (
-                            sortedLanguageList().map((item, index) => (
+                            // sortedLanguageList().map((item, index) => (
+                            state.languageList.map((item, index) => (
                                 <div className="skill-item" key={index}>
                                     <p className="description"><strong>{item.language}</strong></p>
                                     <Circle
