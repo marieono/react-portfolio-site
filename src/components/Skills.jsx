@@ -1,4 +1,3 @@
-import Circle from "react-circle";
 import { useEffect, useReducer } from "react";
 import axios from 'axios';
 import { skillReducer, initialState, actionTypes } from "../reducers/skillReducer";
@@ -59,10 +58,9 @@ export const Skills = () => {
                             sortedLanguageList().map((item, index) => (
                                 <div className="skill-item" key={index}>
                                     <p className="description"><strong>{item.language}</strong></p>
-                                    <Circle
-                                        animate
-                                        progress={converseCountToPercntage(item.count)}
-                                    />
+
+                                    {converseCountToPercntage(item.count)}%
+
                                 </div>
                             ))
                         )
