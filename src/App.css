@@ -153,7 +153,7 @@ h3 {
 }
 
 .skill-item {
-  margin: 0 48px;
+  margin: 0 auto;
 }
 
 
@@ -181,5 +181,11 @@ h3 {
 
   .description {
     font-size: 16px;
+  }
+
+  .skill-item {
+    margin: 0 auto;
+    width: 50%;
+    font-size: 24px;
   }
 }
